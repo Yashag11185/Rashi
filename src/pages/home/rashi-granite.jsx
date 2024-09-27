@@ -5,13 +5,8 @@ import Property from "../../components/home-page/home-5/Property";
 import Quote from "../../components/home-page/home-5/Quote";
 import Hero from "../../components/home-page/home-5/hero";
 import About from "../../components/home-page/home-5/about";
-import FancySection from "../../components/home-page/home-5/FancySection";
-import Testimonial from "../../components/home-page/home-5/Testimonial";
-import Blog from "../../components/home-page/home-5/Blog";
-import Faq from "../../components/home-page/home-5/Faq";
 import CallToActions from "../../components/home-page/home-5/CallToActions";
 import Footer from "../../components/home-page/home-5/footer";
-import { Link } from "react-router-dom";
 
 const RealEstate = () => {
   return (
