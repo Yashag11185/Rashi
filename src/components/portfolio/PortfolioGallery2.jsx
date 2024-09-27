@@ -80,7 +80,7 @@ const PortfolioGallery2 = () => {
   };
 
   return (
-    <div className="portfolio-gallery-three pt-30">
+    <div className="portfolio-gallery-three">
       <div className="container">
         {/* Filters Row */}
         <div className="filters-wrapper d-flex flex-wrap justify-content-between align-items-center mb-4">
@@ -102,7 +102,7 @@ const PortfolioGallery2 = () => {
 
           {/* Additional Filters (Color, Quantity, Type) */}
           <div className="additional-filters d-flex flex-wrap align-items-center">
-            <div className="color-dropdown me-3">
+            <div className="color-dropdown m-3">
              
               <div className="color-options d-flex align-items-center">
               Colors:
