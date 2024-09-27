@@ -4,8 +4,8 @@ const FooterMenu = () => {
       title: "Quick Links",
       links: [
         { title: "About Us", href: "/pages-menu/about-us-v2" },
-        { title: "Gallery", href: "/pages-menu/service-v1" },
-        { title: "Inventory", href: "pages-menu/service-details" },
+        { title: "Gallery", href: "/pages-menu/gallery" },
+        { title: "Inventory", href: "/portfolio/inventory" },
         { title: "Contact Us", href: "/contact/contact-v4" },
       ],
       colClass: "col-lg-2 col-sm-4 mb-30", // Add col class for this section

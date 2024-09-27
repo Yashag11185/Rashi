@@ -45,7 +45,7 @@ const MainMenu = () => {
           <li className="nav-item dropdown mega-dropdown-md">
             <a
               // className="nav-link dropdown-toggle active-menu"
-              href="/home/rashi-granite"
+              href="/"
               role="button"
               
               data-bs-auto-close="outside"
