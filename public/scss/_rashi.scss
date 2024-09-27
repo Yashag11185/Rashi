@@ -702,3 +702,45 @@ body .btn-twentyTwo {
 .theme-menu-eight .navbar-toggler {
   background: #e7bd74 !important;
 }
+/* Default styling for larger devices */
+.hero-heading .worldwide-text::before {
+  content: '';
+}
+
+/* Add a line break before 'Worldwide' on devices below 768px */
+@media (max-width: 560px) {
+  .hero-heading .worldwide-text::before {
+    content: '\A'; /* Inserts a line break */
+    white-space: pre; /* Ensures the line break is respected */
+  }
+}
+.filters-wrapper {
+  flex-wrap: wrap; /* Allow wrapping */
+  gap: 20px; /* Add spacing between items */
+}
+
+@media (max-width: 560px) {
+  .filters-wrapper {
+    flex-direction: column; /* Stack filters vertically */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .additional-filters {
+    width: 100%; /* Make additional filters full width */
+    margin-top: 15px; /* Add some space between filters */
+  }
+
+  .color-dropdown {
+    width: 100%; /* Full width for the color dropdown */
+  }
+
+  .reset-filters-button {
+    margin-top: 10px; /* Space above reset button */
+  }
+
+  .pagination-wrapper {
+    flex-direction: column; /* Stack pagination vertically */
+    align-items: center; /* Center pagination items */
+  }
+}
+
