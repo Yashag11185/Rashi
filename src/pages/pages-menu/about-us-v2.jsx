@@ -1,12 +1,7 @@
 import Seo from "../../components/common/Seo";
 import Header5 from "../../components/header/Header5";
-import Quote from "../../components/home-page/home-5/Quote";
-import About from "../../components/home-page/home-5/about";
-import CallToActions from "../../components/services/CallToActions";
-import Blog from "../../components/home-page/home-5/Blog";
 import Footer from "../../components/home-page/home-5/footer";
 import Team5 from "../../components/team/Team5";
-import { Link } from "react-router-dom";
 import Counter2 from "../../components/about/Counter2";
 import AboutCeo from "../../components/about/AboutCeo";
 import Block from "../../components/about/Block";

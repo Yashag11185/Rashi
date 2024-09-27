@@ -161,7 +161,7 @@ const MainMenu = () => {
                   ? "nav-link  active-menu"
                   : "nav-link "
               }
-              href="/portfolio/inventory"
+              href="pages-menu/service-details"
               role="button"
            
               data-bs-auto-close="outside"
@@ -224,7 +224,7 @@ const MainMenu = () => {
                   ? "nav-link dropdown-toggle active-menu"
                   : "nav-link "
               }
-              href="/pages-menu/gallery"
+              href="/pages-menu/service-v1"
               role="button"
               // data-bs-toggle="dropdown"
               data-bs-auto-close="outside"
