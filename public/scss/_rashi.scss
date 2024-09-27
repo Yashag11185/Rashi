@@ -684,3 +684,21 @@ body .btn-twentyTwo {
   transform: translate(-50%, -50%); /* Adjust for proper alignment */
  
 }
+
+@media (max-width: 768px) {
+  .t-c1{
+    text-align: -webkit-center;
+  }
+  .hero-banner-thirteen .text-shape {
+    top: 50%;
+    left: 50%;
+    content-visibility: hidden !important;
+    transform: translate(-50%, -50%);
+}
+  .navbar .navbar-nav .nav-link {
+    color: black !important;
+}
+}
+.theme-menu-eight .navbar-toggler {
+  background: #e7bd74 !important;
+}
